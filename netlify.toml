@@ -1,0 +1,6 @@
+[build]
+  ignore = "npx nx-ignore demo --verbose"
+  command = "npx nx run demo:build --verbose"
+  publish = "dist/apps/demo/.next"
+
+
