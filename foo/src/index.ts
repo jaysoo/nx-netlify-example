@@ -1,5 +1,6 @@
 const { combineGlobPatterns } = require('nx/src/utils/globs');
 const { dirname } = require('path');
+//test
 
 export const createNodes = [
   combineGlobPatterns(['**/next.config.js']),
