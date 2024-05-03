@@ -2477,6 +2477,18 @@
   resolved "http://localhost:4873/@nx%2fnx-win32-x64-msvc/-/nx-win32-x64-msvc-19.0.0-beta.11.tgz#8018b672e08b3ee379c37e54780ead0ba7319dd3"
   integrity sha512-ym4SwrVBZmIpXIfcK1XhfoxU71tP7rQv75/Uj4JlKoSnM5ebB1juEs8OePQ85kV/hzatB0LMizyE6Mmd07kpRQ==
 
+"@nx/playwright@19.0.0-beta.11":
+  version "19.0.0-beta.11"
+  resolved "http://localhost:4873/@nx%2fplaywright/-/playwright-19.0.0-beta.11.tgz#280b0cd54e4542b454ea038a694f9b169503b29e"
+  integrity sha512-PI93c5WwMZSpmV0C98sDXgOdgEYpQPsGRunDi4Ru6U3atxkE4iYZcnGtA+kssTzcnx/q2bDXxfMEy2h8zn54yw==
+  dependencies:
+    "@nx/devkit" "19.0.0-beta.11"
+    "@nx/eslint" "19.0.0-beta.11"
+    "@nx/js" "19.0.0-beta.11"
+    "@phenomnomnominal/tsquery" "~5.0.1"
+    minimatch "9.0.3"
+    tslib "^2.3.0"
+
 "@nx/plugin@19.0.0-beta.11":
   version "19.0.0-beta.11"
   resolved "http://localhost:4873/@nx%2fplugin/-/plugin-19.0.0-beta.11.tgz#f96f9e7dec07e406c014e9f2f58801a6392f1600"
@@ -2582,6 +2594,13 @@
   integrity sha512-3nVv+e2FQwsW8Aw6qTU6f+1rfcJ3hrcnvH/mu9i8YhxO+9sqbOfpL8m6PbET5+xKOlz/VSbp0RoYWYCtIsnmuA==
   dependencies:
     esquery "^1.4.0"
+
+"@playwright/test@^1.36.0":
+  version "1.43.1"
+  resolved "http://localhost:4873/@playwright%2ftest/-/test-1.43.1.tgz#16728a59eb8ce0f60472f98d8886d6cab0fa3e42"
+  integrity sha512-HgtQzFgNEEo4TE22K/X7sYTYNqEMMTZmFS8kTq6m8hXj+m1D8TgwgIbumHddJa9h4yl4GkKb8/bgAl2+g7eDgA==
+  dependencies:
+    playwright "1.43.1"
 
 "@rushstack/eslint-patch@^1.1.3":
   version "1.6.1"
@@ -6028,6 +6047,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
+fsevents@2.3.2:
+  version "2.3.2"
+  resolved "http://localhost:4873/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+
 fsevents@^2.3.2, fsevents@~2.3.2:
   version "2.3.3"
   resolved "http://localhost:4873/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
@@ -8371,6 +8395,20 @@ pkg-dir@^7.0.0:
   integrity sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==
   dependencies:
     find-up "^6.3.0"
+
+playwright-core@1.43.1:
+  version "1.43.1"
+  resolved "http://localhost:4873/playwright-core/-/playwright-core-1.43.1.tgz#0eafef9994c69c02a1a3825a4343e56c99c03b02"
+  integrity sha512-EI36Mto2Vrx6VF7rm708qSnesVQKbxEWvPrfA1IPY6HgczBplDx7ENtx+K2n4kJ41sLLkuGfmb0ZLSSXlDhqPg==
+
+playwright@1.43.1:
+  version "1.43.1"
+  resolved "http://localhost:4873/playwright/-/playwright-1.43.1.tgz#8ad08984ac66c9ef3d0db035be54dd7ec9f1c7d9"
+  integrity sha512-V7SoH0ai2kNt1Md9E3Gwas5B9m8KR2GVvwZnAI6Pg0m3sh7UvgiYhRrhsziCmqMJNouPckiOhk8T+9bSAK0VIA==
+  dependencies:
+    playwright-core "1.43.1"
+  optionalDependencies:
+    fsevents "2.3.2"
 
 portfinder@^1.0.28:
   version "1.0.32"

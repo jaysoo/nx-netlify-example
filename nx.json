@@ -69,7 +69,23 @@
     }
   },
   "plugins": [
-    "@netlify-nx-example/foo"
+    "@netlify-nx-example/foo",
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {}
+    },
+    {
+      "plugin": "@nx/jest/plugin",
+      "options": {}
+    },
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {}
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {}
+    }
   ],
   "useInferencePlugins": false
 }
